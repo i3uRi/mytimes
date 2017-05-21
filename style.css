@@ -1,0 +1,35 @@
+* {
+
+}
+/* This is the header: Logo + Text + Navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+
+}
+.logo {
+  color: MediumAquamarine;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.logo span {
+  margin-left: 10px;
+}
+.topnav ul li a {
+  color: black;
+}
+.topnav li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+.topnav {
+  margin-right: 20px;
+}
