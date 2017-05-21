@@ -23,15 +23,15 @@ header {
 .logo span {
   margin-left: 10px;
 }
-.topnav ul li a {
+.top.nav ul li a {
   color: black;
 }
-.topnav li {
+.top.nav li {
   display: inline-block;
   width: 60px;
   text-align: center;
 }
-.topnav {
+.top.nav {
   margin-right: 10px;
 }
 /* This is the main container which has 3 columns*/
@@ -138,4 +138,48 @@ h3 {
 }
 h3 {
   margin-bottom: 40px;
+}
+/* This is the footer*/
+.bottom.nav li {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+}
+.logo.nav span {
+  border-right: 1px solid white;
+  padding-right: 30px;
+  color: white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.bottom.nav a {
+  color: black;
+}
+footer .bottom.nav {
+  display: inline-block;
+  align-items: flex-start;
+}
+.bottom.nav {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.logo.nav {
+  justify-content: center;
+}
+.copyright span {
+  font-size: 9px;
 }
