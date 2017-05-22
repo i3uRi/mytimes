@@ -2,6 +2,9 @@
 * {
 
 }
+body {
+  margin: 0;
+}
 /* This is the header: Logo + Text + Navigation */
 header {
   display: flex;
@@ -11,14 +14,18 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: white;
 }
 .logo {
   color: MediumAquamarine;
   padding-left: 20px;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
-  width: 80%;
+  margin: 10px 0px;
+  width: 75%;
 }
 .logo span {
   margin-left: 10px;
@@ -28,11 +35,12 @@ header {
 }
 .top.nav li {
   display: inline-block;
-  width: 60px;
+  width: 80px;
   text-align: center;
 }
 .top.nav {
   margin-right: 10px;
+  width: 25%;
 }
 /* This is the main container which has 3 columns*/
 .main.container {
@@ -40,7 +48,7 @@ header {
   justify-content: space-between;
   width: 1266px;
   margin: 0 auto 78px auto;
-  padding-top: 48px;
+  padding-top: 100px;
 }
 .column.large {
   width: 630px;
